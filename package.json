@@ -1,0 +1,33 @@
+{
+  "name": "mws",
+  "description": "MWS - Modern Web Seed",
+  "private": "true",
+  "scripts": {
+    "test": "karma start karma.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-angular-templatecache": "~2.0.0",
+    "gulp-clean": "~0.3.2",
+	"gulp-clean-css": "~3.9.0",
+    "gulp-connect": "~5.0.0",
+	"gulp-htmlmin": "~3.0.0",
+    "gulp-imagemin": "~3.3.0",
+    "gulp-jsbeautifier": "~2.1.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "~2.0.4",
+    "gulp-ng-annotate": "~2.0.0",
+    "gulp-rev": "~8.0.0",
+    "gulp-sass": "~3.1.0",
+    "gulp-shell": "~0.6.3",
+    "gulp-uglify": "~3.0.0",
+    "gulp-usemin": "0.3.28",
+    "imagemin-pngcrush": "~5.1.0",
+	"jasmine-core": "~2.8.0",
+	"jshint": "~2.9.5",
+    "karma": "~1.7.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-jasmine": "~1.1.0"
+  }
+}

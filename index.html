@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sign in</title>
+  <!-- build:css css/styles.css -->
+  <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- endbuild -->
+</head>
+
+<body ng-app="app">
+<!--[if lt IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="assets/js/iebs/es5-shim.min.js"></script>
+<script src="assets/js/iebs/json3.min.js"></script>
+<script src="assets/js/iebs/respond.min.js"></script>
+<![endif]-->
+
+<!--<h1></h1>-->
+
+<div class="container" ng-view="">
+</div>
+
+<!-- build:js js/lib.js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!--<script src="bower_components/angular-strap/dist/angular-strap.js"></script>-->
+  <!--<script src="bower_components/angular-strap/dist/angular-strap.tpl.js"></script>-->
+<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<!-- endbuild -->
+
+<!-- build:js js/app.js -->
+<script src="app/app.module.js"></script>
+<script src="app/app.route.js"></script>
+<script src="app/components/login/loginController.js"></script>
+<script src="assets/js/templates.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
